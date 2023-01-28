@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/style_comercial_login.css">
+        <script src="../js/login_comercial.js"></script>
+        <title>Comercial - ADM </title>
+    </head>
+    <body draggable="false">
+        <div id="tela">
+            <div>
+                <h1 id="titulo">Comercial</h1>
+                <h2 id="titulo_login">Login</h2>
+            </div>
+
+            <div id="formulário">
+                <label for="usuario">Usuário</label>
+                <input required placeholder="Digite usuário" id="usuario" type="text">
+                <br>
+                <label for="senha">Senha</label>
+                <input required placeholder="Digite senha" id="senha" type="password">
+
+                <button id="btn" onclick="logar()">Pronto</button>
+            </div>
+
+            <div id="final">
+                <img height="60px" width="auto" src="../styles/imagens/logo.png">
+                <a id="esqueceu_senha" href="">Esqueceu a senha?</a>
+            </div>
+        </div>
+    </body>
+</html>

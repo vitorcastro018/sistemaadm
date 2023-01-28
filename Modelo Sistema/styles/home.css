@@ -1,0 +1,106 @@
+/*Importações*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/*Estilo da página*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    background-color: rgb(32, 32, 32);
+    background-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    height: 2000px;
+}
+
+header{
+    position: fixed;
+}
+
+#head{
+    background: black;
+    margin: auto;
+    padding: 1%;
+}
+
+#logo_head{
+    user-select: none;
+}
+
+/*Navbar*/
+#navbar{
+    margin: auto;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    
+    
+}
+
+
+
+.titles_nav{
+    margin: auto;
+    margin-left: 5%;
+
+    
+    
+}
+
+.titles_navbar{
+    user-select: none;
+    list-style: none;
+    margin: auto;
+    display: flex;
+    cursor: pointer;
+    
+    
+    
+    height: 40px;
+    width: 160px;
+    padding: 5%;
+    padding-left: 10%;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.titles_navbar:hover{
+    transition: 0.5s;
+
+    background-color: rgb(255, 224, 139);
+    color: rgb(66, 0, 90);
+    
+    
+}
+
+
+
+#help_button{
+    margin-left: 421px;
+    height: 40px;
+    width: 120px;
+    padding: 1.5%;
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+#help_button:hover{
+    transition: 0.5s;
+    text-align: center;
+    
+    border-radius: 10px 10px 10px 30px;
+    background-color: aquamarine;
+    font-size: 17px;
+    
+}
+
+
+    
